@@ -2,48 +2,54 @@
 
 import React, { useState } from "react";
 import GalleryItem from "./GalleryItem";
+import sportsdaybanner from "../assets/sportsdaybanner.png";
+import sciencefair from "../assets/sciencefair.jpg";
+import culturalgallery from "../assets/culturalgallery.jpeg";
+import schooltour from "../assets/schooltour.mp4";
+import annualvideo from "../assets/annualvideo.mp4";
+import craftvideo from "../assets/videoplayback.mp4";
 
 const galleryData = [
   // Example data; replace with actual data
   {
     id: 1,
     type: "photo",
-    url: "src/assets/sportsdaybanner.png",
+    url: sportsdaybanner,
     date: "2024-07-01",
     event: "Sports Day",
   },
   {
     id: 2,
     type: "photo",
-    url: "src/assets/sciencefair.jpg",
+    url: sciencefair,
     date: "2024-07-03",
     event: "Science Exhibition",
   },
   {
     id: 3,
     type: "photo",
-    url: "src/assets/culturalgallery.jpeg",
+    url: culturalgallery,
     date: "2024-07-03",
     event: "Cultural Fest",
   },
   {
     id: 4,
     type: "video/mp4",
-    url: "src/assets/schooltour.mp4",
+    url: schooltour,
     date: "2024-07-01",
     event: "School Tour",
   },
   {
     id: 5,
     type: "video/mp4",
-    url: "src/assets/annualvideo.mp4",
+    url: annualvideo,
     date: "2024-08-05",
     event: "Annual Function",
   },
   {
     id: 6,
     type: "video/mp4",
-    url: "src/assets/videoplayback.mp4",
+    url: craftvideo,
     date: "2024-09-010",
     event: "Crafting",
   },

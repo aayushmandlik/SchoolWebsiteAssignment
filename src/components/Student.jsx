@@ -1,6 +1,20 @@
 // src/Students.js
 
 import React, { useState } from "react";
+import exc1 from "../assets/exc1.jpg";
+import exc2 from "../assets/exc2.jpg";
+import exc3 from "../assets/exc3.jpg";
+import exc4 from "../assets/exc4.jpg";
+
+import achieve1 from "../assets/achieve1.jpg";
+import achieve2 from "../assets/achieve2.jpg";
+import achieve3 from "../assets/achieve3.jpg";
+import achieve4 from "../assets/achieve4.jpg";
+
+import studentcouncil1 from "../assets/studentcouncil1.jpg";
+import studentcouncil2 from "../assets/studentcouncil2.jpg";
+import studentcouncil3 from "../assets/studentcouncil3.jpg";
+import studentcouncil4 from "../assets/studentcouncil4.jpg";
 
 const Students = () => {
   // State to manage the active tab
@@ -12,25 +26,15 @@ const Students = () => {
   };
 
   // Sample gallery images
-  const galleryImagesExc = [
-    "src/assets/exc1.jpg",
-    "src/assets/exc2.jpg",
-    "src/assets/exc3.jpg",
-    "src/assets/exc4.jpg",
-  ];
+  const galleryImagesExc = [exc1, exc2, exc3, exc4];
 
-  const galleryImagesAchieve = [
-    "src/assets/achieve1.jpg",
-    "src/assets/achieve2.jpg",
-    "src/assets/achieve3.jpg",
-    "src/assets/achieve4.jpg",
-  ];
+  const galleryImagesAchieve = [achieve1, achieve2, achieve3, achieve4];
 
   const galleryImagesStudentCouncil = [
-    "src/assets/studentcouncil1.jpg",
-    "src/assets/studentcouncil2.jpg",
-    "src/assets/studentcouncil3.jpg",
-    "src/assets/studentcouncil4.jpg",
+    studentcouncil1,
+    studentcouncil2,
+    studentcouncil3,
+    studentcouncil4,
   ];
 
   return (

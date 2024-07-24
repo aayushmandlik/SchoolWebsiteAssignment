@@ -1,10 +1,11 @@
 import React from "react";
 import admissionBanner from "../assets/admissionsopen.jpg";
+import admissionform from "../assets/admissionform.pdf";
 
 const Admissions = () => {
   const handleDownload = () => {
     // Logic for downloading the admission form
-    window.open("src/assets/admissionform.pdf", "_blank");
+    window.open(admissionform, "_blank");
   };
 
   return (

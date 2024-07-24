@@ -2,11 +2,14 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import sportsday from "../assets/sportsbanner.jpg";
+import science from "../assets/sciencefair.jpg";
+import cultural from "../assets/culturalfestgif2.gif";
 
 const images = [
-  { src: "src/assets/sportsbanner.jpg", alt: "Annual Sports Day" },
-  { src: "src/assets/sciencefair.jpg", alt: "Science Exhibition" },
-  { src: "src/assets/culturalfestgif2.gif", alt: "Cultural Fest" },
+  { src: sportsday, alt: "Annual Sports Day" },
+  { src: science, alt: "Science Exhibition" },
+  { src: cultural, alt: "Cultural Fest" },
 ];
 
 function Carousel() {
