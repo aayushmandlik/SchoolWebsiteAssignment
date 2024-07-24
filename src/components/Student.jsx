@@ -1,16 +1,19 @@
 // src/Students.js
 
 import React, { useState } from "react";
+import excbanner from "../assets/extracurricularbanner.png";
 import exc1 from "../assets/exc1.jpg";
 import exc2 from "../assets/exc2.jpg";
 import exc3 from "../assets/exc3.jpg";
 import exc4 from "../assets/exc4.jpg";
 
+import achievebanner from "../assets/achievementbanner.jpg";
 import achieve1 from "../assets/achieve1.jpg";
 import achieve2 from "../assets/achieve2.jpg";
 import achieve3 from "../assets/achieve3.jpg";
 import achieve4 from "../assets/achieve4.jpg";
 
+import studentcouncilbanner from "../assets/studentcouncilbanner.png";
 import studentcouncil1 from "../assets/studentcouncil1.jpg";
 import studentcouncil2 from "../assets/studentcouncil2.jpg";
 import studentcouncil3 from "../assets/studentcouncil3.jpg";
@@ -96,7 +99,7 @@ const Students = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="md:col-span-1">
                   <img
-                    src="src/assets/extracurricularbanner.png"
+                    src={excbanner}
                     alt="Extracurricular Activities"
                     className="w-full h-64 object-cover rounded-lg shadow-md"
                   />
@@ -130,7 +133,7 @@ const Students = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="md:col-span-1">
                   <img
-                    src="src/assets/achievementbanner.jpg"
+                    src={achievebanner}
                     alt="Achievements"
                     className="w-full h-64 object-cover rounded-lg shadow-md"
                   />
@@ -165,7 +168,7 @@ const Students = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="md:col-span-1">
                   <img
-                    src="src/assets/studentcouncilbanner.png"
+                    src={studentcouncilbanner}
                     alt="Extracurricular Activities"
                     className="w-full h-64 object-cover rounded-lg shadow-md"
                   />
