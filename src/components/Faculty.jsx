@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import facultyImage1 from "../assets/principal.jpg"; // Replace with actual image paths
-import facultyImage2 from "../assets/faculty2.jpg"; // Replace with actual image paths
-import facultyImage3 from "../assets/faculty3.webp"; // Replace with actual image paths
-import facultyImage4 from "../assets/faculty4.jpg"; // Replace with actual image paths
-import facultyImage5 from "../assets/faculty5.jpg"; // Replace with actual image paths
-import facultyImage6 from "../assets/faculty6.jpg"; // Replace with actual image paths
+import facultyImage1 from "../assets/principal.jpg";
+import facultyImage2 from "../assets/faculty2.jpg";
+import facultyImage3 from "../assets/faculty3.webp";
+import facultyImage4 from "../assets/faculty4.jpg";
+import facultyImage5 from "../assets/faculty5.jpg";
+import facultyImage6 from "../assets/faculty6.jpg";
 
 const facultyMembers = [
   {
@@ -92,6 +92,7 @@ const Faculty = () => {
               alt={member.name}
               className="w-32 h-32 object-cover rounded-full"
             />
+
             <div className="flex-1">
               <h2 className="text-2xl font-semibold mb-2">{member.name}</h2>
               <p className="text-lg font-semibold">{member.position}</p>

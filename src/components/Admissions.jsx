@@ -4,7 +4,6 @@ import admissionform from "../assets/admissionform.pdf";
 
 const Admissions = () => {
   const handleDownload = () => {
-    // Logic for downloading the admission form
     window.open(admissionform, "_blank");
   };
 

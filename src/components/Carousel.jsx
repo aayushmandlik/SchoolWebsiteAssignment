@@ -2,8 +2,8 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import sportsday from "../assets/sportsbanner.jpg";
-import science from "../assets/sciencefair.jpg";
+import sportsday from "../assets/sportsbanner4.jpg";
+import science from "../assets/sciencebanner2.jpg";
 import cultural from "../assets/culturalfestgif2.gif";
 
 const images = [
@@ -34,7 +34,7 @@ function Carousel() {
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-[100%] h-[100%] mx-auto object-cover border-2 border-s rounded"
+                className="w-[70%] h-[60%] mx-auto object-cover border-2 border-s rounded"
               />
             </div>
           ))}

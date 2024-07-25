@@ -15,7 +15,7 @@ function Navbar() {
   const handleLinkClick = (path) => {
     setActiveLink(path);
     if (window.innerWidth < 768) {
-      setIsOpen(false); // Close menu on mobile if a link is clicked
+      setIsOpen(false);
     }
     if (path.startsWith("/#")) {
       const id = path.substring(2);

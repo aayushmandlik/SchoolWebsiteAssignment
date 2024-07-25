@@ -1,5 +1,3 @@
-// src/Students.js
-
 import React, { useState } from "react";
 import excbanner from "../assets/extracurricularbanner.png";
 import exc1 from "../assets/exc1.jpg";
@@ -20,15 +18,12 @@ import studentcouncil3 from "../assets/studentcouncil3.jpg";
 import studentcouncil4 from "../assets/studentcouncil4.jpg";
 
 const Students = () => {
-  // State to manage the active tab
   const [activeTab, setActiveTab] = useState("activities");
 
-  // Function to change the active tab
   const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
 
-  // Sample gallery images
   const galleryImagesExc = [exc1, exc2, exc3, exc4];
 
   const galleryImagesAchieve = [achieve1, achieve2, achieve3, achieve4];

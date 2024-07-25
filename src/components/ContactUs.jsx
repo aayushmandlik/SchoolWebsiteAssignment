@@ -1,5 +1,3 @@
-// src/ContactUs.js
-
 import React from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -9,7 +7,7 @@ const ContactUs = () => {
     e.preventDefault();
     toast.success("Message Sent Successfully", {
       // position: toast.POSITION.TOP_RIGHT,
-      autoClose: 5000, // Duration in milliseconds
+      autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -38,7 +36,6 @@ const ContactUs = () => {
               <a href="tel:+1 (123) 456-7890" className="hover:text-blue-500">
                 <i className="fa fa-phone mr-2"></i>+1 (123) 456-7890
               </a>
-              {/* <p>Fax: (123) 456-7891</p> */}
             </div>
 
             <div className="mb-6">

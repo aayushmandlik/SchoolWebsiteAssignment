@@ -20,6 +20,9 @@ import Admissions from "./components/Admissions";
 import Academics from "./components/Academics";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import SportsGallery from "./components/SportsGallery";
+import ScienceExhibition from "./components/ScienceExhibition";
+import CulturalFestGallery from "./components/CulturalFest";
 
 function MainComponents() {
   const location = useLocation();
@@ -28,6 +31,9 @@ function MainComponents() {
     "/faculty",
     "/admissions",
     "/academics",
+    "/sportsgallery",
+    "/exhibitiongallery",
+    "/culturalgallery",
   ];
   useEffect(() => {
     const hash = location.hash;
@@ -75,6 +81,9 @@ function App() {
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/admissions" element={<Admissions />} />
         <Route path="/academics" element={<Academics />} />
+        <Route path="/sportsgallery" element={<SportsGallery />} />
+        <Route path="/exhibitiongallery" element={<ScienceExhibition />} />
+        <Route path="/culturalgallery" element={<CulturalFestGallery />} />
       </Routes>
       <MainComponents />
     </Router>

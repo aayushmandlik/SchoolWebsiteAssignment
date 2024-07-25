@@ -1,5 +1,3 @@
-// src/Gallery.js
-
 import React, { useState } from "react";
 import GalleryItem from "./GalleryItem";
 import sportsdaybanner from "../assets/sportsdaybanner.png";
@@ -10,7 +8,6 @@ import annualvideo from "../assets/annualvideo.mp4";
 import craftvideo from "../assets/videoplayback.mp4";
 
 const galleryData = [
-  // Example data; replace with actual data
   {
     id: 1,
     type: "photo",
@@ -34,27 +31,25 @@ const galleryData = [
   },
   {
     id: 4,
-    type: "video/mp4",
+    type: "video",
     url: schooltour,
     date: "2024-07-01",
     event: "School Tour",
   },
   {
     id: 5,
-    type: "video/mp4",
+    type: "video",
     url: annualvideo,
     date: "2024-08-05",
     event: "Annual Function",
   },
   {
     id: 6,
-    type: "video/mp4",
+    type: "video",
     url: craftvideo,
-    date: "2024-09-010",
+    date: "2024-09-01",
     event: "Crafting",
   },
-
-  // Add more items here...
 ];
 
 const Gallery = () => {
@@ -92,7 +87,7 @@ const Gallery = () => {
                 <option value="video">Videos</option>
               </select>
             </div>
-            <div className="w-full md:w-1/2">
+            {/* <div className="w-full md:w-1/2">
               <label className="block text-gray-700">Date</label>
               <input
                 type="date"
@@ -101,7 +96,7 @@ const Gallery = () => {
                 onChange={handleFilterChange}
                 className="w-full px-3 py-2 border rounded"
               />
-            </div>
+            </div> */}
           </div>
         </div>
 
